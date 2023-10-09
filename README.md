@@ -1,13 +1,14 @@
 # Setup
 Enable Oauth consent in you google cloud account using your gmail account
 
+generate credentials
+
+Update these credentials in enviroment variable
+
 install all dependency using "pip3 install -r requirement.txt"
 
 add 32 url-safe base64-encoded bytes string in environment variable this  will be use to encrypt data(tokens) so that they can be reused you can also generate this throught Fernet.generate_key()
 
-generate credentials
-
-Update these credentials in enviroment variable
 
 # How to run
 you can script by running main file
