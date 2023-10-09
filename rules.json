@@ -1,0 +1,30 @@
+{
+  "rules": [
+    {
+      "field_name": "from_address",
+      "value":"email_data.from_address",
+      "predicates": "contains"
+    },
+    {
+      "field_name": "to_address",
+      "value":"email_data.to_address",
+      "predicates": "contains"
+    },
+    {
+      "field_name": "subject",
+      "value":"email_data.subject",
+      "predicates": "contains"
+    },
+    {
+      "field_name": "received_date",
+      "value": "Fri, 1 Aug 2023 04:00:47 +0000",
+      "predicates": "less_than"
+    },
+    {
+      "field_name": "email_body",
+      "value": "email_data.email_body",
+      "predicates": "contains"
+    }
+  ],
+  "predicates": "any"
+}
